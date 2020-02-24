@@ -40,6 +40,7 @@ html{
 
 .symbols:hover{
     color: gold;
+    cursor: pointer;
 }
 
 #img{
@@ -184,6 +185,7 @@ hr{
 
   .view-div:hover, .git-div:hover{
       background-color: gold;
+      cursor: pointer;
   }
 
   .git-div:hover{
@@ -193,6 +195,7 @@ hr{
   img:hover{
       opacity: 0.5;
       border-color: gold;
+      cursor: pointer;
   }
 
   .git-div{
@@ -317,5 +320,3 @@ html,body{
 #container-2{
     margin-top: 15vh;
 }
-
-
