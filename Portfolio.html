@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="portfolio.css">
+
+
+</head>
+
+<body>
+    <img id="img" src="boiler-photo.jpg">
+  <div id="boiler">
+      <div id="container">
+      <div id="name" >Adam <span id="name-span">Kabbara</span></div>
+      <hr>
+      <p id="dev">Developer, Programmer, Software Engineer</p>
+      <div id="symbol-div"><i class="fab fa-linkedin fa-2x symbols"></i><i class="fab fa-github fa-2x symbols"></i></div>
+      
+  </div>
+
+    <div id="container-2">
+        <div id="learn">Learn more</div>
+        <div id="down"><a href="#project-page"><i id="down-spec" class="fas fa-chevron-circle-down "></i></a></div>
+    </div>
+</div>
+
+ <div id="project-page">
+   <div id="project-title">Projects</div>
+   <hr id="hor">
+  <div class="boundaries">       
+
+    
+    <div class="grid-elements">
+      <div class="title-div">Username Generator</div>
+      <a class="imga" onclick="myhref('https://github.com/adamKabbara/Username-Generator');" ><img src="usergenimg.jpg" alt="" ></a>
+      <div class="view-div"  onclick="myhref('generator.html');"><i class="far fa-eye view symbs"></i> View</div>
+      <div class="git-div" onclick="myhref('https://github.com/adamKabbara/Username-Generator');"><i class="fab fa-github symbs"></i> GitHub</div>
+    </div>
+    <div class="grid-elements">
+      <div class="title-div" id="stop-view">Stopwatch</div>
+      <a class="imga"  onclick="myhref('https://github.com/adamKabbara/Username-Generator');"><img src="stopwatch.jpg" alt="" ></a>
+      <div class="view-div" onclick="myhref('stopwatch.html');"><i class="far fa-eye view symbs"></i> View</div>
+      <div class="git-div"  onclick="myhref('https://github.com/adamKabbara/Stopwatch');"><i class="fab fa-github symbs"></i> GitHub</div>
+    </div>
+
+  </div>
+    
+</div>
+   <script>
+      function myhref(web){
+        let a= document.createElement('a');
+a.target= '_blank';
+a.href= web;
+a.click();}
+   </script>
+</body>
+</html>
