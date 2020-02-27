@@ -116,7 +116,8 @@ hr{
     position: absolute;
     color: white;
     width: 100%;
-    height: 100%;
+    
+   
 }
 
 
@@ -210,8 +211,18 @@ hr{
   margin-bottom: 7px;
   padding: 4px 8px;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
 }
+
+
+  @media all and (max-width:1260px) {
+   .boundaries{
+    grid-template-columns: 1fr 1fr;
+   }
+   .title-div{
+    font-size: 25.5px;
+  }
+  }
 
 
 
@@ -220,9 +231,8 @@ hr{
      .boundaries{
        grid-template-columns: 1fr;
        width: 95%;
+       
      }
-  
-
 
      .symbs{
     font-size: 5vw;
@@ -251,24 +261,7 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width:768px) {
+@media all and (max-width:535px) {
   #name , #dev{
    font-size: 17vw;
    text-align: center;
@@ -304,13 +297,9 @@ hr{
   margin-right: 36px;
   width: 80%;
 }
-#boiler{
-  
-}
 
-#container{
 
-}
+
 }
 
 html,body{
