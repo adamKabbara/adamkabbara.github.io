@@ -1,148 +1,61 @@
-        <!doctype html>
+<!doctype html>
 
-        <html lang="en">
-        <head>
-          <meta charset="utf-8">
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-          <title>Test</title>
-          <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <style>
-          body,html {
-            width: 100%;
-            height: 100%;
-            margin-left: 0px;
-            margin-right: 0px;
-            background-color: rgb(45, 45, 45);
-          }
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Adam Kabbara</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="portfolio.css">
 
 
-          .boundaries{
-            margin: auto;
-            width: 70vw;
-            display: grid;
-            grid-gap: 20px ;
-            grid-template-columns: 1fr 1fr 1fr;
-          }
+</head>
 
-          .grid-elements{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            color: white;
-            
-          }
+<body>
+    <img id="img" src="boiler-photo.jpg">
+  <div id="boiler">
+      <div id="container">
+      <div id="name" >Adam <span id="name-span">Kabbara</span></div>
+      <hr>
+      <p id="dev">Developer, Programmer, Software Engineer</p>
+      <div id="symbol-div"><i class="fab fa-linkedin fa-2x symbols" onclick="myhref('https://www.linkedin.com/in/adam-kabbara-042130198/');"></i><i class="fab fa-github fa-2x symbols" onclick="myhref('https://github.com/adamKabbara');"></i></div>
+      
+  </div>
 
-          img{
-            width: 100%;
-            min-height: 100%;
-            
-          }
-        
-          .imga{
-            
-            max-height: 100%;
-            border: 7px solid white;
-            margin-bottom: 10px;
-          }
+    <div id="container-2">
+        <div id="learn">Learn more</div>
+        <div id="down"><a href="#project-page"><i id="down-spec" class="fas fa-chevron-circle-down "></i></a></div>
+    </div>
+</div>
 
-          .symbs{
-            font-size: 1.1vw;
-          }
-          
-        
+ <div id="project-page">
+   <div id="project-title">Projects</div>
+   <hr id="hor">
+  <div class="boundaries">       
 
-          .view-div{
-          
-            background-color: #C0C0C0;
-            margin-bottom: 7px;
-            padding: 4px 8px;
-            color: rgb(45, 45, 45);
-          }
+    
+    <div class="grid-elements">
+      <div class="title-div">Username Generator</div>
+      <a class="imga" onclick="myhref('generator.html');" ><img src="usergenimg.JPG" alt="" ></a>
+      <div class="view-div"  onclick="myhref('generator.html');"><i class="far fa-eye view symbs"></i> View</div>
+      <div class="git-div" onclick="myhref('https://github.com/adamKabbara/Username-Generator');"><i class="fab fa-github symbs"></i> GitHub</div>
+    </div>
+    <div class="grid-elements">
+      <div class="title-div" id="stop-view">Stopwatch</div>
+      <a class="imga"  onclick="myhref('stopwatch.html');"><img src="stopwatch.JPG" alt="" ></a>
+      <div class="view-div" onclick="myhref('stopwatch.html');"><i class="far fa-eye view symbs"></i> View</div>
+      <div class="git-div"  onclick="myhref('https://github.com/adamKabbara/Stopwatch');"><i class="fab fa-github symbs"></i> GitHub</div>
+    </div>
 
-          .git-div{
-            background-color: black;
-            color: white;
-            padding: 4px 8px;
-          }
-
-          .title-div{
-            background-color: #C0C0C0;
-          text-align: center;
-          margin-bottom: 7px;
-          padding: 4px 8px;
-          color: black;
-          font-size: 30px;
-        }
-
-
-          @media all and (max-width:768px) {
-            .boundaries{
-              grid-template-columns: 1fr;
-              width: 95%;
-            }
-          
-
-
-            .symbs{
-            font-size: 5vw;
-          }
-          
-          .view-div, .git-div, .title-div{
-            text-align: center;
-          }
-          }
-
-
-        
-        </style>
-
-
-        </head>
-
-        <body>
-            <div class="boundaries">
-              
-                
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-              <div class="grid-elements">
-                <div class="title-div">Username Generator</div>
-                <a class="imga"  href=""><img src="usergenimg.JPG" alt="" ></a>
-                <div class="view-div"><i class="far fa-eye view symbs"></i> View</div>
-                <div class="git-div"><i class="fab fa-github symbs"></i> GitHub</div>
-              </div>
-
-            </div>
-          
-        </body>
-
-
-        </html>
+  </div>
+    
+</div>
+   <script>
+      function myhref(web){
+        let a= document.createElement('a');
+a.target= '_blank';
+a.href= web;
+a.click();}
+   </script>
+</body>
+</html>
