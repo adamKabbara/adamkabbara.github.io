@@ -159,13 +159,13 @@ hr{
     width: 100%;
     height: 100%;
     border: 4px solid white;
-    object-fit: contain;  
+    
   }
  
   .imga{
     width: 100%;    
     height: 100%;
-    object-fit: contain;
+    
     margin-bottom: 10px;
     
   }
