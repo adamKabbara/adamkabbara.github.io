@@ -217,14 +217,7 @@ hr{
 }
 
 
-  @media all and (max-width:1260px) {
-   .boundaries{
-    grid-template-columns: 1fr 1fr;
-   }
-   .title-div{
-    font-size: 25.5px;
-  }
-  }
+
 
 
 
