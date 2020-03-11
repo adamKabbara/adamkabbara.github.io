@@ -217,7 +217,22 @@ hr{
 
 
 
-
+@media all and (min-width:780px) {
+  img{
+   
+    width: 100%;
+    height: 100%;
+    
+ 
+  }
+ 
+  .imga{
+   height: 100%;
+    
+    margin-bottom: 10px;
+    
+  }
+ }
   
 
 
