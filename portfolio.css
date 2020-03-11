@@ -219,22 +219,6 @@ hr{
 
 
   
-@media all and (max-width:769px) {
-  img{
-    box-sizing: border-box;
-    width: 100%;
-    min-height: 100%;
-    
-    border: 4px solid white;
-  }
- 
-  .imga{
-    max-height: 100%;
-    
-    margin-bottom: 10px;
-    
-  }
- }
 
 
   @media all and (max-width:1260px) {
@@ -250,6 +234,18 @@ hr{
 
 
   @media all and (max-width:768px) {
+    img{
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 100%;
+      border: 4px solid white;
+    }
+   
+    .imga{
+      max-height: 100%;
+      margin-bottom: 10px;
+      
+    }
      .boundaries{
        grid-template-columns: 1fr;
        width: 95%;
@@ -320,12 +316,6 @@ hr{
   width: 80%;
 }
 
-img{
-  min-height: 100%;
-}
-.imga{
-  max-height: 100%;
-}
 
 }
 
