@@ -23,7 +23,7 @@ html{
 
 #name{
     
-    color: blue;
+    color: white;
     font-size: 90px;
     margin-top: 17vw;
     padding-left: 50px;
@@ -157,19 +157,19 @@ hr{
   img{
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     
     border: 4px solid white;
   }
  
   .imga{
-    height: 100%;
+    max-height: 100%;
     
     margin-bottom: 10px;
     
   }
 
-  
+
 
   .symbs{
     font-size: 1.1vw;
@@ -234,18 +234,7 @@ hr{
 
 
   @media all and (max-width:768px) {
-    img{
-      box-sizing: border-box;
-      width: 100%;
-      min-height: 100%;
-      border: 4px solid white;
-    }
-   
-    .imga{
-      max-height: 100%;
-      margin-bottom: 10px;
-      
-    }
+ 
      .boundaries{
        grid-template-columns: 1fr;
        width: 95%;
